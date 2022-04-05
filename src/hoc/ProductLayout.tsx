@@ -5,6 +5,7 @@ import Header from 'components/layout/Header';
 import TypeOrder from 'components/order/TypeOrder';
 import CategoryToolbar from 'components/category/CategoryToolbar';
 import Messenger from 'components/layout/Messenger';
+import Footer from 'components/layout/Footer';
 
 interface IProductLayout {
   children: React.ReactNode,
@@ -30,6 +31,7 @@ const ProductLayout: React.FC<IProductLayout> = ({ children }) => {
           </Grid>
         </Grid>
         <Messenger />
+        <Footer />
       </Box>
     </>
   )

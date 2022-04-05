@@ -17,7 +17,23 @@
   width: 1.2rem;
   height: 1.2rem;
 }
+.logotype_itemLarge{
+  background-color: var(#{--red-color-700});
+  width: 2rem;
+  height: 5rem;
+}
 
+.footer_content{
+  text-align: center;
+  padding: var(#{--medium-padding}) var(#{--medium-padding})  var(#{--small-padding}) var(#{--medium-padding}) !important;
+}
+.footer_avatarContainer{
+  justify-content: center;
+}
+.footer_avatar{
+  width: 14rem;
+  height: 14rem;
+}
 
 @media (max-width: 1200px) {
   .header_appBar {

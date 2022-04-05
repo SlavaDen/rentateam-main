@@ -7,4 +7,11 @@ const LogotypeItem: React.FC = () => {
   )
 }
 
+const LogotypeItemLarge: React.FC = () => {
+  return (
+    <Box className={s.logotype_itemLarge} />
+  )
+}
+
+export { LogotypeItemLarge };
 export default LogotypeItem;
