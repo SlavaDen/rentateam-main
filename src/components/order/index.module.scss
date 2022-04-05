@@ -1,0 +1,99 @@
+.backet_button{
+  background-color: var(#{--red-color-700}) !important;
+  color: var(#{--white-color-900}) !important;
+  border-radius: 4rem !important;
+  font-size: 1rem !important;
+}
+.backet_icon{
+  margin-left: 0.4rem !important;
+  width: 24px;
+  height: 24px;
+}
+
+
+
+.typeOrder_selector{
+  align-self: center !important;
+  text-align: right;
+}
+.typeOrder_city{
+  font-family: var(#{--primary-bold}) !important;
+}
+.typeOrderSelector_button{
+  background-color: var(#{--gray-color-50}) !important;
+  border: 0 !important;
+  padding: 0 2rem  !important;
+  color: var(#{--gray-color-900}) !important;
+  font-size: 1.2rem !important;
+  line-height: 0.4rem !important;
+  height: 3rem !important;
+}
+.typeOrderSelector_button_selected{
+  background-color: var(#{--red-color-700}) !important;
+  color: var(#{--white-color-900}) !important;
+  border-radius: 0.3rem !important;
+}
+
+.contactOrderForm_container{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.contactOrderForm_inputContainer{
+  margin-right: 2.6rem;
+}
+
+.contactOrder_tooltip{
+  max-width: 100% !important;
+  font-size: 2rem;
+  background-color: var(#{--black-color-900}) !important;
+}
+.contactOrder_tooltipArrow{
+  color: var(#{--black-color-900}) !important;
+}
+.contactOrder_tooltipText{
+  white-space: nowrap !important;
+  font-family: var(#{--primary-bold}) !important;
+}
+
+@media (max-width: 1200px) {
+  .typeOrder_selector{
+    text-align: left;
+  }
+}
+
+@media (max-width: 1024px) {
+  .typeOrder{
+    text-align: center;
+  }
+  .typeOrder_city {
+    font-size: 3rem !important;
+  }
+  .typeOrder_selector{
+    text-align: center;
+  }
+  .contactOrderForm_container{
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+  .contactOrderForm_inputContainer{
+    text-align: center;
+    flex-direction: column !important;
+    margin-top: 0.5rem;
+    margin-right: 0;
+    width: 20rem;
+  }
+  .contactOrderForm_inputLabel{
+    margin-bottom: 0.5rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .typeOrder_city {
+    font-size: 3rem !important;
+  }
+}
+@media (max-width: 480px) {
+  .typeOrder_city {
+    font-size: 3rem !important;
+  }
+}

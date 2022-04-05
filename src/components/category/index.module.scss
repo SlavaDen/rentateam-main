@@ -1,0 +1,33 @@
+.categoryToolbar{
+  min-height: 2rem !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.categoryToolbar_itemsContainer{
+  overflow-x: auto !important;
+}
+.categoryToolbar_item{
+  cursor: pointer;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  color: var(#{--gray-color-900}) !important;
+  font-size: 1.4rem !important;
+  white-space: nowrap !important;
+  border-radius: 0 !important;
+}
+.categoryToolbar_item:hover{
+  background-color: transparent !important;
+}
+.categoryToolbar_itemActive{
+  color: var(#{--red-color-700}) !important;
+  border-bottom: 0.15rem solid var(#{--red-color-700}) !important;
+}
+
+.categoryListItem{
+  padding-left: var(#{--small-padding}) !important;
+  padding-right: var(#{--small-padding}) !important;
+  padding-bottom: 1rem;
+}
+.categoryListItem_containerEvent{
+  background-color: var(#{--gray-color-50}) !important;
+}

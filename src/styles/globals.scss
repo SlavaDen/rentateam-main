@@ -1,0 +1,33 @@
+
+//colors
+$black-color-900: #000000;
+$white-color-900: #ffff;
+$gray-color-50: #F7F6F5;
+$gray-color-900: #9D9D9D;
+$red-color-700: #E4002B;
+
+//padding
+$sample-padding: 2rem;
+$small-padding: 5.9rem;
+$medium-padding: 7.4rem;
+
+
+//fonts
+$primary-bold: 'CeraPro-Bold, sant-serif';
+
+:root{
+  //colors
+  --black-color-900: #{$black-color-900};
+  --white-color-900: #{$white-color-900};
+  --gray-color-50: #{$gray-color-50};
+  --gray-color-900: #{$gray-color-900};
+  --red-color-700: #{$red-color-700};
+
+  //padding
+  --sample-padding: #{$sample-padding};
+  --small-padding: #{$small-padding};
+  --medium-padding: #{$medium-padding};
+
+  //fonts
+  --primary-bold: #{$primary-bold};
+}

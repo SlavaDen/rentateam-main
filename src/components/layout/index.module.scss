@@ -1,0 +1,33 @@
+.header_appBar{
+  background-color: var(#{--white-color-900}) !important;
+  box-shadow: none !important;
+  padding-left: var(#{--small-padding}) !important;
+  padding-right: var(#{--small-padding}) !important;
+}
+.header_appBarTriggered{
+  border-bottom: 0.1rem solid var(#{--gray-color-50}) !important;
+}
+
+.logotype{
+  height: 2.06rem;
+  justify-content: center !important;
+}
+.logotype_item{
+  background-color: var(#{--red-color-700});
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+
+@media (max-width: 1200px) {
+  .header_appBar {
+    padding-left: var(#{--sample-padding}) !important;
+    padding-right: var(#{--sample-padding}) !important;
+  }
+}
+@media (max-width: 1024px) {
+  .header_appBar {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

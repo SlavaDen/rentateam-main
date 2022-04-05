@@ -1,0 +1,77 @@
+.productItem_card{
+  box-shadow: none !important;
+  border-radius: 1rem !important;
+  text-align: center  !important;
+  cursor: pointer;
+  width: 80% !important;
+  background-color: transparent !important;
+}
+.productItem_cardOdd:hover{
+  background-color: var(#{--white-color-900}) !important;
+}
+.productItem_cardEvent:hover{
+  background-color: var(#{--gray-color-50}) !important;
+}
+.productItem_image{
+  justify-content: center;
+  min-height: 12rem !important;
+  max-height: 12.75rem !important;
+  width: 12rem !important;
+  margin: auto !important;
+}
+.productItem_info{
+  margin-top: 1.4rem !important;
+  margin-bottom: 1rem !important;
+  padding: 0 !important;
+}
+.productItem_name{
+  color: var(#{--gray-color-900}) !important;
+}
+.productItem_price{
+  color: var(#{--red-color-700}) !important;
+  margin-top: 0.6rem !important;
+}
+
+.productItem_imageContainer {
+  position: relative;
+  width: 100%;
+}
+
+.productItem_imageContainer .productItem_addBasketButton {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  background-color: var(#{--white-color-900});
+  color: var(#{--black-color-900});
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.productItem_imageContainer .productItem_actionBasketButton {
+  position: absolute;
+  top: 80%;
+  left: 55%;
+  background-color: var(#{--black-color-900});
+  color: var(#{--white-color-900});
+  justify-content: center;
+  justify-self: center;
+  border-radius: 2rem;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.productItem_shapeWhite *{
+  fill: var(#{--white-color-900}) !important;
+}
+
+.productItem_count{
+  margin: auto !important;
+}
+
+@media (max-width: 768px) {
+  .productItem_card {
+    width: 100% !important;
+  }
+}
+@media (max-width: 480px) {
+  .productItem_card {
+    width: 100% !important;
+  }
+}

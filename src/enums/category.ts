@@ -1,0 +1,5 @@
+
+export enum ECategoryActionTypes {
+  SET_CATEGORIES = 'SET_CATEGORIES',
+  SET_CURRENT_CATEGORY = 'SET_CURRENT_CATEGORY',
+}
